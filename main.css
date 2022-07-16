@@ -1,0 +1,30 @@
+.list {
+    margin: 16px;
+    background-color: rgb(124, 122, 122);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column row;
+    justify-content: space-evenly;
+    
+}
+
+.shop {
+    flex-basis: 16%;
+    font-family: 'Times New Roman', Times, serif;
+    border:solid black
+}
+
+.pageHeader {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: gray;
+    text-align: center;
+    margin: 16px;
+    border-width: 2px;
+    border: solid black
+    }
+body {
+    background:rgb(61, 61, 61)
+}
