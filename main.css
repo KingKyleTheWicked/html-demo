@@ -3,8 +3,8 @@
     outline-style: solid;
     outline-color: aquamarine;
     background-color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-family: Arial, Helvetica, sans-serif
+    font-size: larger;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column row;
@@ -13,9 +13,9 @@
 }
 
 .shop {
+    border: solid black;
     flex-basis: 16%;
-    font-family: 'Times New Roman', Times, serif;
-    border: solid black
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .pageHeader {
@@ -23,7 +23,7 @@
     outline-style: solid;
     outline-width: thick;
     background-color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     text-align: center;
     margin: 16px;
