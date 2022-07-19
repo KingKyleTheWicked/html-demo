@@ -1,8 +1,13 @@
 .list {
+  margin: 5px;
+  padding: 16px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
     outline-width: thick;
     outline-style: solid;
     outline-color: #0e0504;
     background-color: #efc3a4;
+    border-radius: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     display: flex;
@@ -20,12 +25,15 @@
 .pageHeader {
     outline-color: 0e504;
     outline-style: solid;
-    outline-width: thick;
+    outline-width: thin;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
     background-color: #efc3a4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     text-align: center;
     margin: 16px;
+    border-radius: 25px;
     border-width: 2px;
     border: solid black
     }
@@ -38,7 +46,6 @@ background-size: 60px 60px;
 background-position: 0 0, 30px 30px;
   }
   img {
-    
     padding: 5px;
     max-width: fit-content;
     border-width: thick;
@@ -53,3 +60,25 @@ background-position: 0 0, 30px 30px;
     display: flex;
     justify-content: center;
   }
+nav {
+  margin: 5px;
+  padding: 16px;
+  display: flex;
+  justify-content:flex-start;
+  border-radius: 25px;
+  border: solid #0e0504;
+  background-color: #794028;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+button {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 15px 32px;
+  background-color: #eae7e7;
+  color: #0e0504;
+  font-size: 16px;
+  border: solid #0e0504;
+  border-radius: 25px;
+}
